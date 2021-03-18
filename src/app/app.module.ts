@@ -11,12 +11,18 @@ import { MaterialModule } from './material.module';
 import { HomeComponent } from './home/home.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { CoursesListComponent } from './courses/courses-list/courses-list.component';
+import { CoursesDetailsComponent } from './courses/courses-details/courses-details.component';
+import { LessonsListComponent } from './lessons/lessons-list/lessons-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     CoursesComponent,
+    CoursesListComponent,
+    CoursesDetailsComponent,
+    LessonsListComponent,
   ],
   imports: [
     BrowserModule,
